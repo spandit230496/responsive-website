@@ -1,0 +1,53 @@
+*{
+    margin: 0;;
+    padding: 0;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+} 
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.logo h6{
+    font-size: large;
+}
+.logo span{
+    font-size: large;
+    font-weight: 700;
+}
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100vw;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 1rem;
+}
+.sideicon{
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.feedback{
+   
+
+    display: flex;
+   
+    justify-content: space-between;
+}
