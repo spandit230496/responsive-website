@@ -283,10 +283,12 @@ button{
     }
     .navbar{
         display: flex;
+        visibility: hidden;
         flex-direction: column;
         justify-content: space-between;
         width: 100vw;
         padding-top: 1rem;
+        
         }
         .link{
             display: flex;
