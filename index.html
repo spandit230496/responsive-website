@@ -11,14 +11,21 @@
 </head>
 <body>
    <div class="maincontainer">
-     <div class="navbar">
+     <div class="navbar" id="navshow">
+
       <div class="logo">
-       <h6 style="font-family: 'Roboto', sans-serif;">dimends</h6><span>SCASSI</span>
+         <div>
+            <h6 style="font-family: 'Roboto', sans-serif;">dimends</h6><span>SCASSI</span>
+         </div>
+       
+       <div class="hamburger" >
+         <i class="fa-solid fa-xmark" id="close"></i>
+        </div>
       </div>
      <div class="link">
-       <a href="#">Diamonds</a>
-       <a href="#">Accessories</a>
-       <a href="#">Fine Jwellery</a>
+       <a href="#" >Diamonds</a>
+       <a href="#" style="font-weight: 700;">Accessories</a>
+       <a href="#">Fine Jewellery</a>
        <a href="#">Watches</a>
      </div>
      <div class="sideicon">
@@ -26,33 +33,120 @@
         <i class='far fa-heart' style='font-size:24px'></i>
         <i class="fa-solid fa-user" style='font-size:24px'></i>
      </div>
-     
+    
      </div>
   
 
      <div class="submain">
         <div class="feedback">
+         <div class="inquiry">
             <h6><i class="fa-regular fa-message" style='font-size:15px;padding: 0.5rem;'></i>inquiry</h6>
             <h6><i class="fa-solid fa-user" style='font-size:15px;padding: 0.5rem;'></i>Feedback</h6>
-          
+         </div>
+            <div class="hamburger"  >
+               <i class="fa-solid fa-bars" id="open" style="display: none;"></i>
+              </div>
         </div>
-        <div class=".carousal">
+        <div class="carousal flex">
+         <ul class="wrapper">
+          <li class="slides" style="--image-no:1;"><img src="./assets/max-leveridge-cCNK3bl_XJI-unsplash.jpg"></li>
+          <li class="slides" style="--image-no:2;"><img src="./assets/max-leveridge-d7Ak9afNoCI-unsplash.jpg"></li>
+          <li class="slides" style="--image-no:3;"><img src="./assets/max-leveridge-lhgZQKhEYpk-unsplash.jpg"></li>
+          <li class="slides" style="--image-no:4;"><img src="./assets/max-leveridge-MdRPf147ujw-unsplash.jpg"></li>
+         </ul>
+        </div>
+        <div class="offer">
+         <p>Take 20% for a limited Time
+            Use code LOVE20 </p>
          
+         <button>View Details</button>
+        </div>
+        
+            </div>
+        <div>
+   
+
+     </div>
+     
+    <div class="collection">
+     <h1>Our Collections</h1>
+     <p class="description">Discover our Elegent and fine Jewellery collections ranging from classic diamonds stads to stylish pendants and dazzling bracelets</p>
+
+    </div>
+
+    <div class=" sample flex">
+      <ul class="design">
+       <li class="image" style="--image-no:1;"><img src="./assets/max-leveridge-cCNK3bl_XJI-unsplash.jpg"></li>
+       <li class="image" style="--image-no:2;"><img src="./assets/max-leveridge-d7Ak9afNoCI-unsplash.jpg"></li>
+       <li class="image" style="--image-no:3;"><img src="./assets/max-leveridge-lhgZQKhEYpk-unsplash.jpg"></li>
+       <li class="image" style="--image-no:4;"><img src="./assets/max-leveridge-MdRPf147ujw-unsplash.jpg"></li>
+      </ul>
+     </div>
+     <div class="explore">
+      
+         <h1>Explore Loose Diamonds</h1>
+         <p class="description2">Every diamonds in our collection is selected for its  superior cut,symmetry and shape </p>
+    
+        </div>
+        <div class="imageslider">
+         <img>
 
 
         </div>
 
      </div>
+     <div class="contactus">
+      <div class="left">
+       <h2>Keep in Touch</h2>
+       <p>
+         Our Lab created diamonds are the eco-conscious choice, and exhibit the same sparkles as natural diamonds
+       </p>
+       <input type="email" placeholder="Enter your email id to subscribe">
+       <button>Sign Up</button>
+      </div>
+      <div class="right">
+        <div class="imagerow1">
+         <img src="./assets/max-leveridge-cCNK3bl_XJI-unsplash.jpg">
+         <img src="./assets/max-leveridge-cCNK3bl_XJI-unsplash.jpg">
+      </div>
+        <div class="imagerow2">
+         <img src="./assets/max-leveridge-cCNK3bl_XJI-unsplash.jpg">
+         <img src="./assets/max-leveridge-cCNK3bl_XJI-unsplash.jpg">
+      </div>
+
+      </div>
+     
+     </div>
+     <hr>
+     <div class="footer">
+      <div class="logo">
+         <div>
+            <h6 style="font-family: 'Roboto', sans-serif;">dimends</h6><span>SCASSI</span>
+            
+         </div>
+         <h6 style="font-family: 'Roboto', sans-serif;;font-size: 80%;">20+ years of Trust</h6>
+         <p>dimends SCAASI Jeweler is a unique jewellery store located in Chicago with an emaphasis on a great style and exceptional quallity</p>
+         <hr>
+      </div>
+      
+
+     <div class="bottomlink">
+      <a href="#">Education</a>
+      <a href="#">About Us</a>
+      <a href="#">Customer Care</a>
+      <a href="#">Conatct Us</a>
+      
+     </div>
+    <div class="testimony">
 
 
-
-
-
-
+    </div>
+     </div>
+   
 
 
 
    </div>
-    
+    <script src="./function.js"></script>
 </body>
 </html>
