@@ -50,6 +50,8 @@ p{
 .inquiry{
     width: 100%;
     display: flex;
+    background: yellow;
+    justify-content: space-between;
 }
 hr{
     width: 90%;
@@ -119,7 +121,7 @@ list-style: none;
 
     width: 90%;
     height: 100%;
-    border:1px solid black;
+   
    
 }
 .flex{
@@ -298,6 +300,7 @@ button{
         }
         .hamburger{
             display: block;
+            background-color: yellow;
         }
         .sideicon{
             display: none;
